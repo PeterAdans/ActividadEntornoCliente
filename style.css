@@ -1,0 +1,112 @@
+body{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h1{
+    margin-top: 30px;
+    margin-bottom: 3opx;
+    border-bottom: 1px solid gainsboro;
+}
+
+#contenedor{
+    display: flex;
+    flex-direction: row;
+}
+
+#contenedorTabla{
+    margin-top: 50px;
+    width: 70%;
+}
+
+#contenedorCarrito{
+    width: 30%;
+    background-color: aliceblue;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+table{
+    table-layout: fixed;
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+
+}
+th{
+    padding: 20px;
+    border-bottom: 3px solid gainsboro;
+}
+td{
+    padding: 20px;
+    border-bottom: 2px solid gainsboro;
+}
+.cantidad-control {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.cantidad-texto {
+    padding: 5px;
+    min-width: 20px;
+    text-align: center;
+}
+
+.decrementar, .incrementar {
+    padding: 5px;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.decrementar {
+    border-radius: 5px 0 0 5px;
+    background-color: #f7f7f7;
+}
+
+.incrementar {
+    border-radius: 0 5px 5px 0;
+    background-color: #f7f7f7;
+}
+
+#totalFinal {
+    
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+#contenedorTotal {
+    background-color: #f8f9fa; /* Light background for contrast */
+    padding: 20px;
+    border: 1px solid #ddd; 
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    font-size: 1rem;
+}
+
+#contenedorTotal strong {
+    display: block;
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#contenedorTotal .detalle-productos {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+#contenedorTotal .precio-total {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #000;
+    margin-top: 15px;
+}
+.referencia {
+    font-size: 0.8rem; /* Smaller text size */
+    color: #777; /* Subtle color */
+    display: block;
+    margin-top: 4px;
+}
